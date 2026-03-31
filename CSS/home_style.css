@@ -78,5 +78,23 @@ nav {
 
 
 .content {
+    margin: 2%;
+}
 
+.wow_section__bio_section {
+    display: flex;
+    gap: 5%;
+    border: solid;
+}
+
+.wow_section {
+    border: solid;
+    width: 70%;
+    height: 80%;
+}
+
+.bio_section {
+    border: solid;
+    width: 30%;
+    height: 80%;
 }
