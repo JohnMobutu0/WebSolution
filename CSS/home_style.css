@@ -103,11 +103,10 @@ nav {
 
 .wow_object_div {
     position: relative;
-    width: 80px;
-    height: 100px;
+    width: 258px;
+    height: 400px;
     transform-style: preserve-3d;
     animation: rotate 30s linear infinite;
-    background-color: aqua;
     margin: auto;
 }
 
@@ -130,7 +129,7 @@ nav {
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+    transform: rotateY(calc(var(--i)*60deg)) translateZ(350px);
 }
 
 .wow_object_div span img {
@@ -147,5 +146,5 @@ nav {
 
 
 .wow_object_div span:hover img {
-    transform: translateY(-50px)scale(1.2);
+    transform: translateY(-15px)scale(1.2);
 }
