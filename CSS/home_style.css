@@ -98,3 +98,54 @@ nav {
     width: 30%;
     height: 80%;
 }
+
+
+
+.wow_object_div {
+    position: relative;
+    width: 80px;
+    height: 100px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+    background-color: aqua;
+    margin: auto;
+}
+
+
+@keyframes rotate{
+    0%{
+        transform: perspective(1000000000000000px) rotateY(1000deg);
+    }
+    100%{
+        transform: perspective(1000000000000000000px) rotateY(360deg);
+    }
+}
+
+
+.wow_object_div span {
+    position: absolute;
+    top: 0;    
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+}
+
+.wow_object_div span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 2s;
+}
+
+
+
+.wow_object_div span:hover img {
+    transform: translateY(-50px)scale(1.2);
+}
