@@ -84,22 +84,38 @@ nav {
 .wow_section__bio_section {
     display: flex;
     gap: 5%;
-    border: solid;
+    background-color: rgba(250, 235, 215, 0.418);
+    border-radius: 25px;
 }
 
 .wow_section {
-    border: solid;
-    width: 70%;
+    border-radius: 25px;
+    width: 60%;
     height: 80%;
+    background-color: antiquewhite;
 }
+
 
 .bio_section {
-    border: solid;
-    width: 30%;
-    height: 80%;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    height: 400px;
+    width: 50%;
 }
 
+.name_p {
+    margin-left: 30px;
+    color: rgb(75, 57, 33);
+    font-weight: 800;
+    margin-bottom: 25px;
+}
 
+.wow_title_p {
+    margin-left: 30px;
+    color: rgb(75, 57, 33);
+    font-weight: 800;
+    margin-bottom: 25px;
+}
 
 .wow_object_div {
     position: relative;
@@ -148,3 +164,5 @@ nav {
 .wow_object_div span:hover img {
     transform: translateY(-15px)scale(1.2);
 }
+
+
