@@ -176,12 +176,15 @@ nav {
 
 .ability_one_div {
     border: solid;
-}
+    border-radius: 15px;
+}   
 
 .ability_two_div {
     border: solid;
+    border-radius: 15px;
 }
 
 .ability_three_div {
     border: solid;
+    border-radius: 15px;
 }
