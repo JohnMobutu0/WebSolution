@@ -171,20 +171,58 @@ nav {
     display: flex;
     background-color: antiquewhite;
     justify-content: space-between;
+    overflow-x: auto;
+
+    animation: scroll 20s linear infinite;
+}
+
+
+@keyframes scroll {
+    to {
+        transform: translateX(-100%);
+    }
 }
 
 
 .ability_one_div {
-    border: solid;
+    border: solid white;
     border-radius: 15px;
-}   
+    display: flex;
+    margin: 5px;
+    width: 450px;
+    align-items: center;
+    gap: 3px;
+}  
+
+
 
 .ability_two_div {
-    border: solid;
+    border: solid white;
     border-radius: 15px;
+    display: flex;
+    margin: 5px;
+    width: 450px;
+    align-items: center;
+    gap: 3px;
 }
 
 .ability_three_div {
-    border: solid;
+    border: solid white;
     border-radius: 15px;
+}
+
+.ability_one_icon_img {
+    width: 55%;
+    margin-left: 15px;
+}
+
+.ability_two_icon_img {
+    width: 15%;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.ability_text_p {
+    margin-right: 5px;
+    white-space: nowrap;
 }
