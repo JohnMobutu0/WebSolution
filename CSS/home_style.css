@@ -1,6 +1,7 @@
 body {
     margin: 0;
     
+    
 }
 
 
@@ -173,8 +174,15 @@ nav {
     justify-content: space-between;
     overflow-x: auto;
 
-    animation: scroll 20s linear infinite;
+    /* animation: scroll 20s linear infinite; */
 }
+
+
+.ability_section_parent {
+    background-color: antiquewhite;
+
+}
+
 
 
 @keyframes scroll {
@@ -192,6 +200,7 @@ nav {
     width: 450px;
     align-items: center;
     gap: 3px;
+    height: 45px;
 }  
 
 
@@ -201,14 +210,24 @@ nav {
     border-radius: 15px;
     display: flex;
     margin: 5px;
-    width: 450px;
+    width: 250px;
     align-items: center;
     gap: 3px;
+    height: 45px;
+    /* padding-right: 150px;
+    padding-left: 10px; */
+    
 }
 
 .ability_three_div {
     border: solid white;
     border-radius: 15px;
+    display: flex;
+    margin: 5px;
+    width: 240px;
+    align-items: center;
+    gap: 3px;
+    height: 45px;
 }
 
 .ability_one_icon_img {
@@ -217,12 +236,59 @@ nav {
 }
 
 .ability_two_icon_img {
-    width: 15%;
+    width: 55%;
     margin-left: 15px;
     border-radius: 50%;
+    
+}
+
+.ability_three_icon_img {
+    width: 65%;
+    margin-left: 15px;
+    border-radius: 50%;
+    
 }
 
 .ability_text_p {
     margin-right: 5px;
     white-space: nowrap;
+}
+
+
+
+.project_section {
+    background-color: antiquewhite;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.project_one_div {
+    border: white solid;
+    width: 15%;
+    height: 150px;
+    margin: 45px;
+    background-image: url(../images/pscreenshot.png);
+    background-size: cover;
+}
+
+
+.project_two_div {
+    border: white solid;
+    width: 15%;
+    height: 150px;
+    margin: 45px;
+    background-image: url(../images/pscreenshot.png);
+    background-size: cover;
+}
+
+
+.project_three_div {
+    border: white solid;
+    width: 15%;
+    height: 150px;
+    margin: 45px;
+    background-image: url(../images/pscreenshot.png);
+    background-size: cover;
 }
