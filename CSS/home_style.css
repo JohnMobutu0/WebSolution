@@ -266,8 +266,8 @@ nav {
 
 .project_one_div {
     border: white solid;
-    width: 15%;
-    height: 150px;
+    width: 20%;
+    height: 300px;
     margin: 45px;
     background-image: url(../images/pscreenshot.png);
     background-size: cover;
@@ -276,8 +276,8 @@ nav {
 
 .project_two_div {
     border: white solid;
-    width: 15%;
-    height: 150px;
+    width: 20%;
+    height: 300px;
     margin: 45px;
     background-image: url(../images/pscreenshot.png);
     background-size: cover;
@@ -286,9 +286,83 @@ nav {
 
 .project_three_div {
     border: white solid;
-    width: 15%;
-    height: 150px;
+    width: 20%;
+    height: 300px;
     margin: 45px;
     background-image: url(../images/pscreenshot.png);
     background-size: cover;
+    
+}
+
+.view_project_btn_div {
+    position: absolute;
+    bottom: -100px;
+    margin-left: 7%;
+    margin-right: 10%;
+}
+
+
+.view_project_btn_button {
+    color: chocolate;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: chocolate solid;
+    border-radius: 8px;
+    font-weight: 800;
+}
+
+
+.view_project_btn_button:hover {
+    color: antiquewhite;
+    padding: 10px;
+    background-color: chocolate;
+    border: chocolate solid;
+    border-radius: 8px;
+    font-weight: 800;
+}
+
+.code_language_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.html_icone_and_text_div {
+    display: flex;
+    /* text-align: center;*/
+    align-items: center; 
+}
+
+.html_icone_and_text_img_html {
+    width: 40px;
+    height: 40%;
+}
+
+.html_icone_and_text_p {
+
+}
+
+.html_icone_and_text_img_css {
+    width: 40px;
+    height: 40%;
+    
+}
+
+.html_icone_and_text_img_js {
+    width: 40px;
+    height: 40%;
+    
+}
+
+.html_icone_and_text_img_django {
+    width: 40px;
+    height: 40%;
+    
+}
+
+
+.html_icone_and_text_img_react {
+    width: 40px;
+    height: 45%;
+    
 }
