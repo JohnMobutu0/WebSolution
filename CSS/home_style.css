@@ -366,3 +366,29 @@ nav {
     height: 45%;
     
 }
+
+
+.blog_section {
+    border: solid antiquewhite;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.Blog_title_div {
+    margin-left: 2%;
+}
+
+.Blog_title_p {
+    font-size: 20px;
+    font-weight: 501;
+}
+
+.Blog_body_div {
+    margin-left: 1%;
+}
+
+
+.blog_btn_div {
+    margin-left: 45%;
+    margin-bottom: 1%;
+}
