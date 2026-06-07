@@ -85,7 +85,6 @@ nav {
 .wow_section__bio_section {
     display: flex;
     gap: 5%;
-    background-color: rgba(250, 235, 215, 0.418);
     border-radius: 25px;
     margin-bottom: 20px;
 }
@@ -93,16 +92,40 @@ nav {
 .wow_section {
     border-radius: 25px;
     width: 60%;
-    height: 80%;
+    height: 100%;
+    border: solid antiquewhite;
+}
+
+.wow_section:hover {
     background-color: antiquewhite;
+    transition: 0.5s ease;
+    transform: scale(1.01);
+    box-shadow: 0 0 20px chocolate;
+
 }
 
 
 .bio_section {
-    background-color: antiquewhite;
     border-radius: 25px;
-    height: 400px;
-    width: 50%;
+    height: 675px;
+    width: 30%;
+    border: solid antiquewhite;
+}
+
+.bio_section:hover {
+    background-color: antiquewhite;
+    transition: 0.5s ease;
+    transform: scale(1.01);
+    box-shadow: 0 0 20px chocolate;
+
+}
+
+.profile_pic_img {
+    width: 300px;
+    height: 300px;
+    border-radius: 800px;
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
 .name_p {
@@ -110,6 +133,11 @@ nav {
     color: rgb(75, 57, 33);
     font-weight: 800;
     margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.bio_p {
+    margin: 2%;
 }
 
 .wow_title_p {
@@ -117,6 +145,34 @@ nav {
     color: rgb(75, 57, 33);
     font-weight: 800;
     margin-bottom: 25px;
+    font-size: 30px;
+}
+
+
+.wow_btn_button {
+    border: solid chocolate;
+    height: 40px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    color: chocolate;
+    font-weight: 900;
+    margin-left: 5%;
+    margin-bottom: 4%;
+    width: 80px;
+    
+}
+
+
+.wow_btn_button:hover {
+    background-color: chocolate;
+    color: antiquewhite;
+    
+}
+
+
+.wow_object_div_parent {
+    height: 500px;
+    
 }
 
 .wow_object_div {
@@ -170,16 +226,20 @@ nav {
 
 .ability_section {
     display: flex;
-    background-color: antiquewhite;
+    border: solid antiquewhite;
     justify-content: space-between;
     overflow-x: auto;
+    border-radius: 8px;
 
     /* animation: scroll 20s linear infinite; */
 }
 
 
-.ability_section_parent {
+.ability_section:hover {
     background-color: antiquewhite;
+    transition: 0.5s ease;
+    transform: scale(1.01);
+    box-shadow: 0 0 20px chocolate;
 
 }
 
@@ -257,10 +317,19 @@ nav {
 
 
 .project_section {
-    background-color: antiquewhite;
+    border: solid antiquewhite;
+    border-radius: 9px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.project_section:hover {
+    background-color: antiquewhite;
+    transition: 0.5s ease;
+    /* transform: scale(1.01); */
+    box-shadow: 0 0 20px chocolate;
+
 }
 
 
@@ -371,8 +440,17 @@ nav {
 .blog_section {
     border: solid antiquewhite;
     border-radius: 15px;
-    background-color: antiquewhite;
 }
+
+
+.blog_section:hover {
+    background-color: antiquewhite;
+    transition: 0.5s ease;
+    transform: scale(1.01);
+    box-shadow: 0 0 20px chocolate;
+
+}
+
 
 .Blog_title_div {
     margin-left: 2%;
@@ -391,4 +469,32 @@ nav {
 .blog_btn_div {
     margin-left: 45%;
     margin-bottom: 1%;
+
+}
+
+.blog_btn_button {
+    border: solid chocolate;
+    border-radius: 8px;
+    height: 40px;
+    background-color: antiquewhite;
+    color: chocolate;
+    font-weight: 990;
+
+}
+
+
+.blog_btn_button:hover{
+    background-color: chocolate;
+    color: antiquewhite;
+
+}
+
+footer {
+    text-align: center;
+}
+
+
+footer:hover {
+    font-weight: 800;
+    transition: 0.7s ease;
 }
